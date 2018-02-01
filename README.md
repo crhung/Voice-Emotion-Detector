@@ -35,8 +35,9 @@ For feature extraction we make use of the [**LibROSA**](https://librosa.github.i
 <br>
 ![](images/feature.png?raw=true)
 <br>
-* Here there are some things to note. While extracting the features, all the audio files have been timed for 3 seconds to get equal number of features. 
-* The sampling rate of each file is doubled keeping sampling frequency constant to get more features which will help classify the audio file when the size of dataset is small.
+* While extracting the features, all the audio files have been sampled starting from 0.5 seconds and then timed for 3 seconds to get equal number of features.
+* The sampling rate of each file is doubled to around 44 KHz. This allows each audio samples to get more features which will help classify the audio file while keeping noise at a minimum.
+* The audio files were also seperated by emotion and sex.
 <br>
 **The extracted features looks as follows:**
 <br>
