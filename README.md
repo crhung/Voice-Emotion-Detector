@@ -39,8 +39,9 @@ For feature extraction we make use of the [**LibROSA**](https://librosa.github.i
 * The sampling rate of each file is doubled to around 44 KHz. This allows each audio samples to get more features which will help classify the audio file while keeping noise at a minimum.
 * The audio files were also seperated by emotion and sex.
 <br>
-**The extracted features looks as follows:**
+The extracted features looks as follows:
 <br>
+
 ![](images/feature2.png?raw=true)
 <br>
 
