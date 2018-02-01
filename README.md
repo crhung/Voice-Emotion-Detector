@@ -35,6 +35,7 @@ For feature extraction we make use of the [**LibROSA**](https://librosa.github.i
 <br>
 ![](images/feature.png?raw=true)
 <br>
+* The feature used to extract from is the Mel-frequency cepstrum coefficients (MFCCs). This feature is used often used in voice recognition software because of the accurate way MFCCs envelope the the shape of the vocal tract. 
 * While extracting the features, all the audio files have been sampled starting from 0.5 seconds and then timed for 3 seconds to get equal number of features.
 * The sampling rate of each file is doubled to around 44 KHz. This allows each audio samples to get more features which will help classify the audio file while keeping noise at a minimum.
 * The audio files were also seperated by emotion and sex.
