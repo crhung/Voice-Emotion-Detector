@@ -1,9 +1,8 @@
 # Speech Emotion Analyzer
 
-* The idea behind creating this project was to build a sentiment analysis engine that could detect emotions from the speech we have with each other all the time. Nowadays personalization is something that is needed in all the things we experience everyday. 
+* The idea behind creating this project was to build a voice emotion detector that could detect emotions from audio from speech
 
-* So why not have a emotion detector that will guage your emotions and in the future recommend you different things based on your mood. 
-This can be used by multiple industries to offer different services like marketing comapny suggesting you to buy products based on your emotions, automotive industry can detect the persons emotions and adjust the speed of autonomous cars as required to avoid any collisions etc.
+* It can be used in many business applications for example, this can be used by multiple industries to offer different services like marketing comapny suggesting you to buy products based on your emotions, automotive industry can detect the persons emotions and adjust the speed of autonomous cars as required to avoid any collisions etc.
 
 ## Analyzing audio signals
 ![](images/joomla_speech_prosody.png?raw=true)
@@ -35,7 +34,7 @@ For feature extraction we make use of the [**LibROSA**](https://librosa.github.i
 <br>
 ![](images/feature.png?raw=true)
 <br>
-* The feature used to extract from is the Mel-frequency cepstrum coefficients (MFCCs). This feature is used often used in voice recognition software because of the accurate way MFCCs envelope the the shape of the vocal tract. 
+* The feature used to extract from are Mel-frequency cepstrum coefficients (MFCCs). This feature is used often used in voice recognition software because of the accurate way MFCCs envelope the the shape of the vocal tract. 
 * While extracting the features, all the audio files have been sampled starting from 0.5 seconds and then timed for 3 seconds to get equal number of features.
 * The sampling rate of each file is doubled to around 44 KHz. This allows each audio samples to get more features which will help classify the audio file while keeping noise at a minimum.
 * The audio files were also seperated by emotion and sex.
