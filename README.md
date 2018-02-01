@@ -41,7 +41,7 @@ For feature extraction we make use of the [**LibROSA**](https://librosa.github.i
 <br>
 The extracted features looks as follows:
 <br>
-
+<br>
 ![](images/feature2.png?raw=true)
 <br>
 
